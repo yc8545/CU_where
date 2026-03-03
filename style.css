@@ -1,0 +1,257 @@
+/* GENERAL */
+/* ================= LOGIN PAGE ================= */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e3a8a, #3f51b5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-card {
+  background: white;
+  width: 380px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.brand {
+  margin: 0;
+  font-size: 28px;
+  color: #d60000;
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.toggle-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #f1f1f1;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.toggle-buttons button.active {
+  background: #3f51b5;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3f51b5;
+}
+
+.main-btn {
+  width: 100%;
+  padding: 12px;
+  background: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-btn:hover {
+  background: #1e3a8a;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef1f6;
+  color: #2c3e50;
+}
+
+/* NAVBAR */
+.navbar {
+  background: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #d60000; /* CU red vibe */
+}
+
+.search input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 300px;
+  background: #f5f6fa;
+}
+
+.profile {
+  font-weight: 500;
+  color: #34495e;
+}
+
+/* PAGE TITLE */
+.page-title {
+  background: #3f51b5;  /* CUIMS blue vibe */
+  color: white;
+  padding: 18px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* MAP */
+#map {
+  height: 500px;
+  border-radius: 12px;
+}
+
+/* STATS SECTION */
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Color-coded headings */
+.stat-card:nth-child(1) h3 {
+  color: #2e7d32; /* Students - green */
+}
+
+.stat-card:nth-child(2) h3 {
+  color: #1565c0; /* Teachers - blue */
+}
+
+.stat-card:nth-child(3) h3 {
+  color: #c62828; /* HOD - red */
+}
+
+.stat-card p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* DROPDOWNS */
+.dropdowns {
+  display: flex;
+  gap: 30px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #f5f6fa;
+}
+
+/* BREAK BUTTON */
+.break-btn {
+  padding: 10px 20px;
+  background: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.break-btn:hover {
+  background: #c62828;
+}
+
+
+
+/* DASHBOARD BODY */
+.dashboard-page {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef1f6;
+  color: #2c3e50;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.dashboard-wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CU Campus Tracker</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet/dist/leaflet.css" 
+  />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body class="dashboard-page dashboard-wrapper">
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">CU Campus Tracker</div>
+
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Search campus...">
+  </div>
+
+  <div class="profile">
+    <span id="userRole"></span>
+  </div>
+</div>
+
+<!-- TITLE -->
+<div class="page-title">
+  CU-WHERE : Live Campus Monitoring System
+</div>
+
+<!-- MAP CARD -->
+<div class="card map-card">
+  <div id="map"></div>
+</div>
+
+<!-- STATS -->
+<div class="stats-container">
+
+  <div class="stat-card">
+    <h3>Students</h3>
+    <p id="studentCount"></p>
+  </div>
+
+  <div class="stat-card">
+    <h3>Teachers</h3>
+    <p id="teacherCount"></p>
+  </div>
+
+  <div class="stat-card">
+    <h3>HODs</h3>
+    <p id="hodCount"></p>
+  </div>
+
+</div>
+
+<!-- CONTROLS -->
+<div class="card controls">
+
+  <div class="dropdowns">
+    <div>
+      <label>Find Teacher</label>
+      <select id="teacherDropdown"></select>
+    </div>
+
+    <div>
+      <label>Find HOD</label>
+      <select id="hodDropdown"></select>
+    </div>
+  </div>
+
+  <div id="breakSection">
+    <button onclick="toggleBreak()" class="break-btn">
+      Toggle On Break
+    </button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
